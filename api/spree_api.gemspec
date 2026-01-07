@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.homepage      = 'http://spreecommerce.org'
   s.license       = 'BSD-3-Clause'
 
-  s.required_ruby_version = '>= 2.2.7'
+  s.required_ruby_version = '>= 3.0'
 
   s.files         = `git ls-files`.split($\).reject { |f| f.match(/^spec/) && !f.match(/^spec\/fixtures/) }
   s.executables   = s.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
   s.version       = Spree.version
 
   s.add_dependency 'spree_core', s.version
-  s.add_dependency 'rabl', '~> 0.13.1'
-  s.add_dependency 'versioncake', '~> 3.3.0'
+  s.add_dependency 'rails', '>= 7.0', '< 8.0'
+  s.add_dependency 'rabl', '~> 0.16'
+  s.add_dependency 'versioncake', '~> 4.1'
 end
