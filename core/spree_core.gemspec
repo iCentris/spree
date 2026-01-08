@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'deface', '~> 1.9'
   s.add_dependency 'ffaker', '~> 2.23'
   s.add_dependency 'friendly_id', '~> 5.5'
-  s.add_dependency 'highline', '~> 2.1' # Necessary for the install generator
+  s.add_dependency 'highline', '~> 2.0' # Necessary for the install generator (relaxed for commander compatibility)
   s.add_dependency 'kaminari', '~> 1.2'
   s.add_dependency 'monetize', '~> 1.13'
   s.add_dependency 'kt-paperclip', '~> 7.2'  # Replacement for deprecated paperclip
