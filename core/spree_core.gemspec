@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'kt-paperclip', '~> 7.2'  # Replacement for deprecated paperclip
   s.add_dependency 'paranoia', '~> 2.6'
   s.add_dependency 'premailer-rails'
-  s.add_dependency 'acts-as-taggable-on', '~> 10.0'
+  s.add_dependency 'acts-as-taggable-on', '~> 13.0'
   s.add_dependency 'rails', '>= 7.0', '< 8.0'
   s.add_dependency 'activerecord', '>= 7.0', '< 8.0'
   s.add_dependency 'activesupport', '>= 7.0', '< 8.0'
